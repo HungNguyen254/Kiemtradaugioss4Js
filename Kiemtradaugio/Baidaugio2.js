@@ -14,7 +14,7 @@ for( i = 1;i <= 50;i++){
     }
 }
 if(i % 3 === 0){
-    result = i + i;
+    result = (i * oddcount) / 2;
 }
 console.log("Tong cua tat ca cac so da in ra chu Fizz");
 
